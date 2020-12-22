@@ -1,35 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T09:33:49.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="7NinaN4B1fgQpz9sLVho" version="14.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-22T09:51:26.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rMm3kdPpoNdA2wCCVl_W" version="14.0.4" type="github" pages="2">
   <diagram id="Ezf2xozEbTHmqeJ5TG5X" name="MAIN PAGE">
-    <mxGraphModel dx="946" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ujmQcPg2i8HI_Amrzuig-1" value="Kulonuwun" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="330" y="70" width="70" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ujmQcPg2i8HI_Amrzuig-2" value="Kitabisa Core Staging" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="480" y="70" width="70" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ujmQcPg2i8HI_Amrzuig-3" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="170" as="sourcePoint" />
-            <mxPoint x="475.7142857142858" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ujmQcPg2i8HI_Amrzuig-4" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="170" as="sourcePoint" />
-            <mxPoint x="420" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ujmQcPg2i8HI_Amrzuig-8" value="&lt;h1&gt;Donor Acquisition Staging&lt;/h1&gt;&lt;p&gt;Here is the diagram for Donor Acquisition Staging system&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="55" y="5" width="140" height="175" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rqdF4-ba1p3inDI9vvdh" name="WB">
-    <mxGraphModel dx="946" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="11t00iMbkhRj_psAAcLW-0" />
         <mxCell id="11t00iMbkhRj_psAAcLW-1" parent="11t00iMbkhRj_psAAcLW-0" />

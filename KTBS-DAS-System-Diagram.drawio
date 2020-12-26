@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T17:48:54.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sJ5jYBYXuvm1_05aB55S" version="14.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-26T18:07:21.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dEfXEALe7eF0lVqtzPWs" version="14.1.1" type="github" pages="3">
   <diagram id="Ezf2xozEbTHmqeJ5TG5X" name="MAIN PAGE">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -291,10 +291,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rk22WgtsiX5oCM68wOds-0" value="Santet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/infrastructure/mobile_backend.svg;" vertex="1" parent="rQLQ0YM59egq8YVtbZnR-1">
-          <mxGeometry x="980" y="130" width="80" height="80" as="geometry" />
+          <mxGeometry x="960" y="-30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5Wi73xQARW_iD5r6foTX-4" value="Send OTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rQLQ0YM59egq8YVtbZnR-1">
-          <mxGeometry x="1030" y="250" width="120" height="20" as="geometry" />
+          <mxGeometry x="870" y="80" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-0" value="&lt;b&gt;Steril&lt;/b&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;labelBackgroundColor=#FFFFFF;fontSize=12;spacingTop=3;image;image=img/lib/ibm/infrastructure/mobile_backend.svg;spacingLeft=36;" vertex="1" parent="rQLQ0YM59egq8YVtbZnR-1">
+          <mxGeometry x="960" y="-240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-1" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rQLQ0YM59egq8YVtbZnR-1" source="ebgmSyIAQNl3yZ6gWttQ-0" target="Rk22WgtsiX5oCM68wOds-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="-220" as="sourcePoint" />
+            <mxPoint x="900" y="-240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-2" value="Generate OTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="rQLQ0YM59egq8YVtbZnR-1">
+          <mxGeometry x="1000" y="-100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-9" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rQLQ0YM59egq8YVtbZnR-1" source="Rk22WgtsiX5oCM68wOds-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="130" as="sourcePoint" />
+            <mxPoint x="950" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-10" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rQLQ0YM59egq8YVtbZnR-1" source="Rk22WgtsiX5oCM68wOds-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1025" y="40" as="sourcePoint" />
+            <mxPoint x="1080" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-11" value="Send OTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rQLQ0YM59egq8YVtbZnR-1">
+          <mxGeometry x="1020" y="80" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-12" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.sms;fillColor=#86D466;gradientColor=#42B418;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="rQLQ0YM59egq8YVtbZnR-1">
+          <mxGeometry x="898" y="200" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebgmSyIAQNl3yZ6gWttQ-13" value="Whatsapp&lt;br&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/2019-social-media/512/social_media-10-128.png;fontColor=#000000;spacingLeft=30;" vertex="1" parent="rQLQ0YM59egq8YVtbZnR-1">
+          <mxGeometry x="1042" y="181" width="98" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

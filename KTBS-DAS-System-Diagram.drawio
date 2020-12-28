@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T06:26:27.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="y5KVc4GO3TsONadY7Qbd" version="14.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-28T06:59:38.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="6dcrs6apyVJGi8DzKlNM" version="14.1.1" type="github" pages="3">
   <diagram id="Ezf2xozEbTHmqeJ5TG5X" name="MAIN PAGE">
     <mxGraphModel dx="946" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
         <mxCell id="6Ix-fA3v4wptY0xo_kqx-0" value="CORE KITABISA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#000000;" parent="11t00iMbkhRj_psAAcLW-1" vertex="1">
           <mxGeometry x="1500" y="270" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="33AnpK_Euo0_brnJY2qd-0" value="DB yang dipake : core kitabisa sama kulonuwun&lt;br&gt;DB core kitabisa : staging sama prod&amp;nbsp;&lt;br&gt;DB kulonuwun : staging sama prod&lt;br&gt;&lt;br&gt;envi yang dev semua nembak ke stg&lt;br&gt;&lt;br&gt;payment dipindah ke dito (payment squad)&lt;br&gt;&lt;br&gt;donation ngga dihandle&lt;br&gt;&lt;br&gt;steril fokus untuk generate OTP --&amp;gt; setelah generate, platform yang dipake buat ngirim OTP dilakuin sama santet&lt;br&gt;&lt;br&gt;santet nyambung email, SMS sama wa buat generate, generate UI nya doang&lt;br&gt;&lt;br&gt;email generator : customer.io&lt;br&gt;SMS generator : infobip&lt;br&gt;wa generator :&amp;nbsp;&lt;br&gt;&lt;br&gt;wong ngetrigger supaya steril generate OTP&lt;br&gt;&lt;br&gt;device user --&amp;gt; wong --&amp;gt; steril --&amp;gt; santet --&amp;gt; customer.io --&amp;gt; device user&lt;br&gt;&lt;br&gt;donasi, bayar lewat VA, dapet SMS, alurnya :&lt;br&gt;kuncen --&amp;gt; infobip --&amp;gt;&lt;br&gt;&lt;br&gt;instant payment langsung ke sangu, engga lewat monolith&lt;br&gt;tapi antara VA atau bank transfer lewat monolith&lt;br&gt;&lt;br&gt;V3 bedanya sama sebelumnya cuma UI nya&lt;br&gt;&lt;br&gt;core.ktbs.xyz nembak ke kitabisa API&lt;br&gt;&lt;br&gt;geni.ktbs.xyz/io nembak ke wong&lt;br&gt;&lt;br&gt;suramadu --&amp;gt; zendesk&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="11t00iMbkhRj_psAAcLW-1" vertex="1">
+        <mxCell id="33AnpK_Euo0_brnJY2qd-0" value="DB yang dipake : core kitabisa sama kulonuwun&lt;br&gt;DB core kitabisa : staging sama prod&amp;nbsp;&lt;br&gt;DB kulonuwun : staging sama prod&lt;br&gt;&lt;br&gt;envi yang dev semua nembak ke stg&lt;br&gt;&lt;br&gt;payment dipindah ke dito (payment squad)&lt;br&gt;&lt;br&gt;donation ngga dihandle&lt;br&gt;&lt;br&gt;steril fokus untuk generate OTP --&amp;gt; setelah generate, platform yang dipake buat ngirim OTP dilakuin sama santet&lt;br&gt;&lt;br&gt;santet nyambung email, SMS sama wa buat generate, generate UI nya doang&lt;br&gt;&lt;br&gt;email generator : customer.io&lt;br&gt;SMS generator : infobip&lt;br&gt;wa generator :&amp;nbsp;&lt;br&gt;&lt;br&gt;wong ngetrigger supaya steril generate OTP&lt;br&gt;&lt;br&gt;device user --&amp;gt; wong --&amp;gt; steril --&amp;gt; santet --&amp;gt; customer.io --&amp;gt; device user&lt;br&gt;&lt;br&gt;donasi, bayar lewat VA, dapet SMS, alurnya :&lt;br&gt;kuncen --&amp;gt; infobip --&amp;gt;&lt;br&gt;&lt;br&gt;instant payment langsung ke sangu, engga lewat monolith&lt;br&gt;tapi antara VA atau bank transfer lewat monolith&lt;br&gt;&lt;br&gt;V3 bedanya sama sebelumnya cuma UI nya&lt;br&gt;&lt;br&gt;core.ktbs.xyz nembak ke kitabisa API&lt;br&gt;&lt;br&gt;geni.ktbs.xyz/io nembak ke wong&lt;br&gt;&lt;br&gt;suramadu --&amp;gt; zendesk&amp;nbsp;&lt;br&gt;&lt;br&gt;kapan nembak ke core?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="11t00iMbkhRj_psAAcLW-1" vertex="1">
           <mxGeometry x="40" y="1345" width="720" height="525" as="geometry" />
         </mxCell>
         <mxCell id="p-5EDRc6BcjArIywmazT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="11t00iMbkhRj_psAAcLW-1" source="p-5EDRc6BcjArIywmazT-1" target="gyIzzF3QgkATX3K4TAfc-24" edge="1">
@@ -269,9 +269,6 @@
         <mxCell id="zmO0Bx5u2IssJCQ_i1zx-7" value="SANTET" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
           <mxGeometry x="1325" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-12" value="GENERATE OTP" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
-          <mxGeometry x="1140" y="590" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="zmO0Bx5u2IssJCQ_i1zx-13" value="SEND OTP&lt;br&gt;VIA EMAIL" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
           <mxGeometry x="1680" y="590" width="120" height="60" as="geometry" />
         </mxCell>
@@ -286,6 +283,59 @@
         </mxCell>
         <mxCell id="zmO0Bx5u2IssJCQ_i1zx-22" value="SEND OTP&lt;br&gt;VIA WHATSAPP" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
           <mxGeometry x="1680" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="11t00iMbkhRj_psAAcLW-1" source="zmO0Bx5u2IssJCQ_i1zx-29" target="zmO0Bx5u2IssJCQ_i1zx-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="11t00iMbkhRj_psAAcLW-1" source="zmO0Bx5u2IssJCQ_i1zx-29" target="zmO0Bx5u2IssJCQ_i1zx-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-29" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="410" y="1990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="11t00iMbkhRj_psAAcLW-1" source="zmO0Bx5u2IssJCQ_i1zx-30" target="zmO0Bx5u2IssJCQ_i1zx-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-30" value="REGISTER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="320" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-31" value="LOGIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="510" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="11t00iMbkhRj_psAAcLW-1" source="zmO0Bx5u2IssJCQ_i1zx-32" target="zmO0Bx5u2IssJCQ_i1zx-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="11t00iMbkhRj_psAAcLW-1" source="zmO0Bx5u2IssJCQ_i1zx-32" target="zmO0Bx5u2IssJCQ_i1zx-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="2410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="11t00iMbkhRj_psAAcLW-1" source="zmO0Bx5u2IssJCQ_i1zx-32" target="zmO0Bx5u2IssJCQ_i1zx-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="11t00iMbkhRj_psAAcLW-1" source="zmO0Bx5u2IssJCQ_i1zx-32" target="zmO0Bx5u2IssJCQ_i1zx-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="2410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-32" value="REGISTERED?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="330" y="2310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-37" value="PHONE&lt;br&gt;NUMBER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="320" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-38" value="EMAIL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="180" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-39" value="SOCIAL&lt;br&gt;MEDIA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="460" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmO0Bx5u2IssJCQ_i1zx-44" value="OTP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11t00iMbkhRj_psAAcLW-1">
+          <mxGeometry x="250" y="2650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
